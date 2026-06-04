@@ -1,6 +1,7 @@
 # Build output
 build/
 *.exe
+*.Setup.exe
 *.obj
 *.lib
 *.dll

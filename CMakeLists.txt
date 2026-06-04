@@ -10,7 +10,7 @@ set(CMAKE_AUTOUIC ON)
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Network)
 
 file(GLOB_RECURSE SOURCES src/*.cpp src/*.h)
-add_executable(screenshot-translator ${SOURCES} resources/resources.qrc)
+add_executable(screenshot-translator WIN32 ${SOURCES} resources/resources.qrc)
 
 target_link_libraries(screenshot-translator PRIVATE
     Qt6::Core
