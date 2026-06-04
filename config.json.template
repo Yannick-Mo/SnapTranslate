@@ -1,0 +1,25 @@
+{
+    "ocr": {
+        "api_key": "your_baidu_ocr_api_key",
+        "secret_key": "your_baidu_ocr_secret_key",
+        "engine": "auto",
+        "easyocr": {
+            "access_key": "",
+            "github_user": ""
+        },
+        "tianyiocr": {
+            "enabled": false
+        }
+    },
+    "translate": {
+        "app_id": "your_baidu_translate_app_id",
+        "secret_key": "your_baidu_translate_secret_key"
+    },
+    "general": {
+        "hotkey": "Alt+Q",
+        "target_language": "zh",
+        "auto_copy": true,
+        "show_notification": true,
+        "clipboard_monitor": true
+    }
+}
