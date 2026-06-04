@@ -1,0 +1,8 @@
+/* SnapTranslate Dark Theme */
+QToolTip {
+    background-color: #16213e;
+    color: #e0e0e0;
+    border: 1px solid #0f3460;
+    padding: 4px;
+    border-radius: 4px;
+}

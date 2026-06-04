@@ -1,0 +1,42 @@
+# Build output
+build/
+*.exe
+*.obj
+*.lib
+*.dll
+*.exp
+*.pdb
+*.ilk
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.pro.user*
+CMakeSettings.json
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# Config & runtime data (contains API keys)
+config.json
+history.json
+
+# Non-source documentation (design docs, specs, plans)
+设计.md
+docs/
+
+# Qt
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qm
+
+# OS
+.DS_Store
+Thumbs.db
