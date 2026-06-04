@@ -2,6 +2,12 @@
 
 A desktop screenshot translation tool built with **C++ / Qt 6 + CMake**.
 
+<p align="center">
+  <a href="EffectDemonstration/test.mp4">
+    <img src="EffectDemonstration/thumbnail.png" alt="效果演示" width="800">
+  </a>
+</p>
+
 ## Features
 
 - **Hotkey screenshot** — Press `Alt+Q` to capture a screen region
